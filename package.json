@@ -1,0 +1,19 @@
+{
+  "name": "darool-uloom-hidayatul-islam-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.17.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.16"
+  },
+  "scripts": {
+    "dev": "node api.js && vite",
+    "build": "node api.js && vite build",
+    "preview": "vite preview"
+  }
+}
